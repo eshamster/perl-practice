@@ -2,5 +2,6 @@
 
 my $age = 14;
 my $refAge = \$age;
+my $derefAge = $$refAge;
 
-print "age is $age, and refAge is $refAge\n"
+print "age is $age, refAge is $refAge, and derefAge is $derefAge\n"
