@@ -2,8 +2,4 @@
 
 use File::Find;
 
-find(\&fileProc, '.');
-
-sub fileProc {
-    print "$File::Find::name\n";
-}
+find(sub { print "$File::Find::name\n"; }, '.');
