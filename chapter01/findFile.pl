@@ -5,5 +5,6 @@ use File::Find;
 find(\&fileProc, '.');
 
 sub fileProc {
-    print "$File::Find::name\n" if -f $_;
+    return unless -f $_;
+    print "$File::Find::name\n";
 }
