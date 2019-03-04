@@ -14,7 +14,7 @@ sub fileProc {
     open TMP, ">$fname.temptemp";
 
     while (<IN>) {
-        s|/bin/sh|/bin/bash|g; # ← $_を暗黙に参照して、さらに書き換えている
+        s|/(.*)/sh|/$1/bash|g; # ← $_を暗黙に参照して、さらに書き換えている
         print TMP; # ← 書き換えられた$_を暗黙に参照。こわい
     }
 
