@@ -1,0 +1,17 @@
+01:The Lake Isle of Innisfree
+02:William Butler Yeats
+03:
+04:I will arise and go now, and go to Innisfree,
+05:And a small cabin build there, of clay and wattles made;
+06:Nine bean-rows will I have there, a hive for the honey-bee,
+07:And live alone in the bee-loud glade.
+08:
+09:And I shall have some peace there, for peace comes dropping slow,
+10:Dropping from the veils of the morning to where the cricket sings,
+11:There midnight's all a glimmer, and noon a purple glow,
+12:And evening full of the linnet's wings;
+13:
+14:I will arise and go now, for always night and day
+15:I hear lake water lapping with low sounds by the shore;
+16:While I stand on the roadway, or one the pavements grey,
+17:I hear it in the deep core of the heart.
