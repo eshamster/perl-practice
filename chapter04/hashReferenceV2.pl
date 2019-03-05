@@ -11,7 +11,7 @@ my $refMonth = {
     August     => 8,
     September  => 9,
     October    => 10,
-    Novenmber  => 11,
+    November   => 11,
     December   => 12,
 };
 
