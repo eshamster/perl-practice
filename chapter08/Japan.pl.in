@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+# USE #
+
+beef; orange; car; cd; dvd; oil;
+
+=pod
+# ※do_japan.shによる実行結果
+
+$ ./do_japan.sh 
+----- use America; -----
+I'm American BEEF! Buy me and eat me ! 
+I'm American ORANGE! Buy me and eat me ! 
+I'm American CAR! Buy me and ride me ! 
+----- use America "car"; -----
+I'm American CAR! Buy me and ride me ! 
+----- use America "car", "cd"; -----
+I'm American CAR! Buy me and ride me ! 
+I'm American CD! Well, you can buy me and listen to... 
+----- use America ":round"; -----
+I'm American ORANGE! Buy me and eat me ! 
+I'm American CD! Well, you can buy me and listen to... 
+I'm American DVD! Well, you can buy me and listen to... 
+----- use America ":liquid"; -----
+"oil" is not exported by the America module
+Can't continue after import errors at ./Japan.pl line 3.
+BEGIN failed--compilation aborted at ./Japan.pl line 3.
+----- use America (); -----
+=cut
