@@ -32,4 +32,13 @@ sub getSides {
     return ($self->{a}, $self->{b}, $self->{c});
 }
 
+sub setSides {
+    my ($self, $a, $b, $c) = @_;
+
+    $self->{a} = $a;
+    $self->{b} = $b;
+    $self->{c} = $c;
+    $self->{s} = $subSpace->($a, $b, $c);
+}
+
 1;
