@@ -7,7 +7,7 @@ our @ISA = qw(Triangle);
 
 sub space {
     my ($class, $a) = @_;
-    $class->Triangle::space($a, $a, $a);
+    $class->SUPER::space($a, $a, $a);
 }
 
 1;
