@@ -27,4 +27,9 @@ sub space {
     $self->{s};
 }
 
+sub getSides {
+    my $self = shift;
+    return ($self->{a}, $self->{b}, $self->{c});
+}
+
 1;
