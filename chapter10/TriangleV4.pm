@@ -1,12 +1,13 @@
 package Triangle;
 
 use strict;
+use base 'Figure';
 
-sub space {
-    my ($class, $a, $b, $c) = @_;
-    warn "You are able to calculate the space of $class !!! \n";
-    my $s = ($a + $b + $c) / 2;
-    sqrt($s * ($s - $a) * ($s - $b) * ($s - $c));
-}
+# sub space {
+#     my ($class, $a, $b, $c) = @_;
+#     warn "You are able to calculate the space of $class !!! \n";
+#     my $s = ($a + $b + $c) / 2;
+#     sqrt($s * ($s - $a) * ($s - $b) * ($s - $c));
+# }
 
 1;
